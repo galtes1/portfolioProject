@@ -46,12 +46,18 @@ nav li {
  flex: 1;
 }
 
-nav img {
- width: 90px;
- height: auto;
-}
-
 nav a {
  color: #efe0de;
  text-decoration: none;
+}
+
+.bottomLine {
+ display: flex;
+ align-items: flex-end;
+ justify-content: space-between;
+ background-color: #363062;
+ color: #efe0de;
+ padding: 0px 10px 8px 10px;
+ font-size: 20px;
+ height: 50px;
 }

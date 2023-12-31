@@ -46,11 +46,6 @@ nav li {
  flex: 1;
 }
 
-nav img {
- width: 90px;
- height: auto;
-}
-
 nav a {
  color: #efe0de;
  text-decoration: none;
@@ -231,9 +226,9 @@ h1 {
  height: 550px;
  color: #efe0de;
  margin-top: 50px;
- padding-top: 150px;
  h3 {
   font-size: 50px;
+  padding-top: 150px;
  }
 }
 .form {
