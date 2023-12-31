@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>a portfolio, by gal testa</title>
+    <link rel="stylesheet" href="../portfolioProject-main/style/index.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li class="facePic"><i class="fa-thin fa-igloo"></i></li>
+          <li class="nav-links"><a href="#contact">contact</a></li>
+          <li class="nav-links"><a href="#">about</a></li>
+          <li class="nav-links"><a href="#topGallery">gallery</a></li>
+          <li class="nav-links"><a href="#">home</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Cover section = Background Picture -->
+    <div class="cover">
+      <!-- Title section = Text -->
+      <div class="title">
+        <h1>'a portfolio'</h1>
+        <h2>a gal testa work</h2>
+      </div>
+
+      <!-- About Me section -->
+      <div class="aboutMe">
+        <img
+          src="../portfolioProject-main/assets/imgs/meFormal.jpg"
+          alt="meFormal"
+          class="meFormal"
+        />
+        <div class="details">
+          <p><span class="bold">full name:</span> gal testa</p>
+          <p><span class="bold">location:</span> tel aviv</p>
+          <p><span class="bold">sign:</span> who cares?</p>
+          <p><span class="bold">favorite color:</span> beautiful</p>
+          <!-- Add more details as needed -->
+        </div>
+      </div>
+      <p class="quote">"do a good job, and a job well-done will be made."</p>
+    </div>
+    <span id="topGallery"></span>
+    <main>
+      <!-- Gallery section -->
+      <section id="gallery">
+        <div class="spinText">
+          <span style="--i: 1">s</span>
+          <span style="--i: 2">e</span>
+          <span style="--i: 3">l</span>
+          <span style="--i: 4">e</span>
+          <span style="--i: 5">c</span>
+          <span style="--i: 6">t</span>
+          <span style="--i: 7">e</span>
+          <span style="--i: 8">d</span>
+          <span id="blank" style="--i: 9">_</span>
+          <span style="--i: 10">w</span>
+          <span style="--i: 11">o</span>
+          <span style="--i: 12">r</span>
+          <span style="--i: 13">k</span>
+          <span style="--i: 14">s</span>
+        </div>
+
+        <div id="container-gallery">
+          <!-- Individual Project Cards -->
+          <div class="card">
+            <div class="card-img"></div>
+            <div class="click">
+              <a href="./projects/project1/presentation1.html">
+                <p>project 1</p>
+                <p>click here</p>
+              </a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img"></div>
+            <div class="click">
+              <a href="./projects/project2/presentation2.html">
+                <p>project 2</p>
+                <p>click here</p>
+              </a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img"></div>
+            <div class="click">
+              <a href="./projects/project3/presentation3.html">
+                <p>project 3</p>
+                <p>click here</p>
+              </a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img"></div>
+            <div class="click">
+              <a href="./projects/project4/presentation4.html">
+                <p>project 4</p>
+                <p>click here</p>
+              </a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img"></div>
+            <div class="click">
+              <a href="./projects/project5/presentation5.html">
+                <p>project 5</p>
+                <p>click here</p>
+              </a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img"></div>
+            <div class="click">
+              <a href="./projects/project6/presentation6.html">
+                <p>project 6</p>
+                <p>click here</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div id="container-footer">
+        <div id="contact">
+          <h3>wish to contact?</h3>
+          <div class="form">
+            <form>
+              <div style="margin-bottom: 20px">
+                <label for="name">your name:</label><br />
+                <input type="text" name="name" /><br />
+                <label for="text">company:</label><br />
+                <input type="text" name="company" /> <br />
+              </div>
+              <div class="jobOffer">
+                <p>i wish to hire you:</p>
+                <div class="radio-container">
+                  <input
+                    type="radio"
+                    id="option1"
+                    name="offer"
+                    value="option1"
+                  />
+                  <label for="option1">yes</label><br />
+                </div>
+                <div class="radio-container">
+                  <input
+                    type="radio"
+                    id="option2"
+                    name="offer"
+                    value="option2"
+                  />
+                  <label for="option2">no</label>
+                </div>
+              </div>
+              <br />
+              <div>
+                <label for="email">email:</label><br />
+                <input type="email" name="email" /><br />
+                <input type="button" value="send" />
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="bottomLine">
+        <p>all rights reserved.</p>
+        <p>gal testa</p>
+      </div>
+    </footer>
+  </body>
+</html>
