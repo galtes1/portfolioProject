@@ -141,6 +141,25 @@ h1 {
   font-size: 55px;
   -webkit-text-stroke: 1px #435585;
 }
+#cvSection {
+  width: 70%;
+  height: 100vh;
+  display: flex;
+  text-align: center;
+  align-content: center;
+  justify-content: space-between;
+  background-color: #818fb4;
+  a {
+    text-decoration: none;
+  }
+}
+#cvDownload {
+  text-align: center;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  font: 1.5rem;
+}
 
 /* Gallery section styling */
 #gallery {
