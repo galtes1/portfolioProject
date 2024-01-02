@@ -82,7 +82,7 @@ nav a {
 
 h1 {
   background-image: linear-gradient(
-    to right,
+    to left,
     #363062 0%,
     #435585 29%,
     #818fb4 67%,
@@ -319,7 +319,6 @@ input[type="button"]:hover {
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
-  position: fixed;
   bottom: 0;
   background-color: #363062;
   color: #efe0de;
