@@ -75,9 +75,6 @@ nav a {
   align-items: center;
   color: #435585;
   font-size: 50px;
-  /* h2 {
-    -webkit-text-stroke: 0.01px #435585;
-  } */
 }
 
 h1 {
@@ -141,24 +138,18 @@ h1 {
   font-size: 55px;
   -webkit-text-stroke: 1px #435585;
 }
+
+/* cv section style*/
 #cvSection {
   width: 70%;
-  height: 100vh;
-  display: flex;
+  height: 200px;
   text-align: center;
-  align-content: center;
-  justify-content: space-between;
+  margin: 10;
   background-color: #818fb4;
-  a {
-    text-decoration: none;
-  }
 }
-#cvDownload {
-  text-align: center;
-  position: relative;
-  align-items: center;
-  justify-content: center;
-  font: 1.5rem;
+.cvBtn a {
+  text-decoration: none;
+  display: inline-block;
 }
 
 /* Gallery section styling */
