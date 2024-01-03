@@ -114,8 +114,14 @@ h1 {
   margin: auto;
   justify-content: center;
   margin-top: 25px;
+  img {
+    width: 336px;
+    height: 224px;
+    border-radius: 100%;
+    border: 1px solid #435585;
+    margin-top: 20px;
+  }
 }
-
 .spiel {
   display: flex;
   flex-direction: column;
@@ -130,13 +136,6 @@ h1 {
     word-wrap: break-word;
     text-align: center;
   }
-}
-.aboutMe img {
-  width: 336px;
-  height: 224px;
-  border-radius: 100%;
-  border: 1px solid #435585;
-  margin-top: 20px;
 }
 
 .quote {
