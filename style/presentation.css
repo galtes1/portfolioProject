@@ -125,7 +125,7 @@ main {
   align-items: center;
   margin: 0 20% 0 20%;
   justify-content: space-evenly;
-  .cvBtn {
+  .Btn {
     width: 80%;
     height: 150px;
     display: flex;
