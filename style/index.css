@@ -243,7 +243,6 @@ h1 {
   font-size: 50px;
   transform: scale3d(1.1, 1.1, 1.1);
   transition: 0.5s ease;
-  cursor: pointer;
 }
 
 .card .click {
@@ -255,6 +254,7 @@ h1 {
   text-decoration: none;
   color: #363062;
   font-size: 35px;
+  cursor: pointer;
 }
 
 .card-img {
