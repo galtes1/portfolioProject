@@ -32,8 +32,6 @@
   align-items: center;
 
   h1 {
-    /* Layout Properties */
-
     height: 53px;
     text-align: right;
     font: normal normal 900 36px/53px Heebo;
@@ -42,12 +40,10 @@
     opacity: 1;
   }
   p {
-    /* Layout Properties */
     top: 307px;
     left: 1131px;
     width: 417px;
     height: 58px;
-    /* UI Properties */
     text-align: right;
     font: normal normal normal 20px/29px Heebo;
     letter-spacing: 0px;
