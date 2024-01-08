@@ -23,8 +23,7 @@ header {
 }
 
 /* Navigation styling */
-nav ul,
-#container-footer {
+nav {
   display: flex;
   justify-content: center;
   width: 100%;
@@ -33,15 +32,20 @@ nav ul,
   align-items: center;
 }
 
-nav li {
+nav a {
   list-style-type: none;
   display: inline-block;
   padding: 10px 15px;
   margin-right: 50px;
   font-size: 25px;
+  color: #efe0de;
+  text-decoration: none;
+  transition: 0.3s ease;
 }
 
 .logo {
+  width: 90px;
+  height: auto;
   width: 90px;
   height: auto;
   flex: 1;
@@ -50,11 +54,6 @@ nav li {
   }
 }
 
-nav a {
-  color: #efe0de;
-  text-decoration: none;
-  transition: 0.3s ease;
-}
 nav a:hover {
   color: #818fb4;
 }
@@ -307,6 +306,9 @@ h1 {
 #container-footer {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  background-color: #363062;
+  align-items: center;
   width: 100%;
   height: 100%;
   color: #efe0de;
