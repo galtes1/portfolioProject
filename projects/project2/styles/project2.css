@@ -92,8 +92,7 @@ input[type="submit"] {
   font: normal normal bold 22px/30px Heebo;
   letter-spacing: 0.33px;
   color: #ffffff;
-  margin-top: 40px;
-  margin-bottom: 100px;
+  margin: 40px 0 100px 0;
 }
 
 @media screen and (max-width: 400px) {
@@ -106,6 +105,8 @@ input[type="submit"] {
     background-image: url(../assets/imgs/bgMobile.png);
     background-size: contain;
     background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
     width: 100%;
     height: 30%;
   }
@@ -128,7 +129,7 @@ input[type="submit"] {
   #blkBox p {
     text-align: center;
     width: 70%;
-    margin-top: 2em;
+    margin-top: 1em;
     font-size: 15px;
   }
 
@@ -147,9 +148,6 @@ input[type="submit"] {
     width: 58px;
     height: 24px;
     font-size: 14px;
-    letter-spacing: 0px;
-    color: #ffffff;
-    opacity: 1;
   }
   #emailSection {
     margin-top: 1em;
@@ -160,5 +158,6 @@ input[type="submit"] {
     height: 33px;
     font-size: 15px;
     letter-spacing: 0.33px;
+    margin: 13px 0 120px 0;
   }
 }
