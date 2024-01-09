@@ -1,7 +1,7 @@
-/* Font import */
+/* font import */
 @import url("https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400;0,500;1,400;1,500&display=swap");
 
-/* Reset */
+/* reset */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -10,19 +10,28 @@
   scroll-behavior: smooth;
 }
 
-/* Body styling */
+/* body styling */
 body {
   background-color: #efe0de;
 }
 
-/* Header styling */
+/* header styling */
 header {
   position: sticky;
   top: 0;
   left: 0;
 }
 
-/* Navigation styling */
+#navbar-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 99px;
+  background-color: #363062;
+}
+
+/* navigation styling */
 nav {
   display: flex;
   justify-content: center;
@@ -57,8 +66,17 @@ nav a {
 nav a:hover {
   color: #818fb4;
 }
-
-/* Cover section styling */
+#checkbox-toggle {
+  display: none;
+}
+#hamburger {
+  font-size: 30px;
+  cursor: pointer;
+  order: 0;
+  margin-right: 15px;
+  display: none;
+}
+/* cover section styling */
 .cover {
   background: linear-gradient(
       to bottom,
@@ -112,7 +130,7 @@ h1 {
   }
 }
 
-/* About Me section styling */
+/* about me section styling */
 .aboutMe {
   display: flex;
   flex-direction: column;
@@ -184,7 +202,7 @@ h1 {
   }
 }
 
-/* Gallery section styling */
+/* gallery section styling */
 #gallery {
   margin-top: 60px;
   text-align: center;
@@ -232,7 +250,7 @@ h1 {
   margin-bottom: 90px;
 }
 
-/* Card styling */
+/* cards styling */
 .card {
   height: 300px;
   width: 200px;
@@ -302,7 +320,7 @@ h1 {
   background-size: cover;
   border-radius: 10px 10px 0 0;
 }
-/* Footer styling */
+/* footer styling */
 #container-footer {
   display: flex;
   flex-direction: column;
@@ -451,22 +469,27 @@ input[type="button"]:hover {
   font-size: 20px;
   height: 99px;
   width: 100%;
-  margin-top: 10px;
 }
 
 @media only screen and (max-width: 900px) {
-  #hamburger {
-    display: block;
-    margin: 0.5em;
-    margin-bottom: -1em;
+  header {
+    display: flex;
+    width: 100%;
   }
-  input[type="checkbox"]:checked ~ #navbar-links {
-    display: block;
+  h1 {
+    font-size: 2em;
   }
-  #navbar {
-    flex-direction: column;
+  .spiel {
+    width: 100%;
   }
-  #navbar-links {
-    display: none;
+  #cvSection {
+    margin-top: 2em;
+    .cvBtn a {
+      margin: 0.5em;
+      font-size: 1em;
+    }
+  }
+  .spinText {
+    padding: 3em;
   }
 }
