@@ -80,6 +80,9 @@ label {
 #emailLabel {
   margin-top: 20px;
 }
+#emailSection {
+  margin-top: 2em;
+}
 input[type="submit"] {
   left: 1382px;
   width: 166px;
@@ -93,7 +96,7 @@ input[type="submit"] {
   margin-bottom: 100px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
   #main {
     width: 100%;
     display: inline;
@@ -108,21 +111,54 @@ input[type="submit"] {
   }
 
   #blkBox {
-    width: 569px;
-    height: 643px;
+    width: 299px;
+    height: 441px;
     background: #1a1a1ad4 0% 0% no-repeat padding-box;
     opacity: 1;
     margin: 89px 34px 128px 37px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
+
+    h1 {
+      width: 50%;
+      height: 67px;
+      text-align: center;
+      font-size: 25px;
+    }
   }
-  h1 {
-    width: 146px;
-    height: 67px;
-    word-wrap: break-word;
+
+  #blkBox p {
+    text-align: center;
+    width: 70%;
+    margin-top: 2em;
+    font-size: 15px;
   }
+
   form {
+    margin: 20px 0 -115px 0;
+  }
+  input {
+    top: 434px;
+    left: 1131px;
+    width: 230px;
+    height: 28px;
+  }
+  label {
+    top: 409px;
+    left: 1491px;
+    width: 58px;
+    height: 24px;
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+  }
+  #emailSection {
+    margin-top: 1em;
+  }
+  input[type="submit"] {
+    left: 1382px;
+    width: 76px;
+    height: 33px;
+    font-size: 15px;
+    letter-spacing: 0.33px;
   }
 }
