@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap");
+* {
+ font-family: "poppins";
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+body {
+ background-color: salmon;
+}
+.container {
+ display: flex;
+ height: 500px;
+ width: 850px;
+ border: 1px solid silver;
+ margin: auto;
+ margin-top: 170px;
+}
+.form {
+ display: flex;
+ flex-direction: column;
+ width: 50%;
+ align-items: center;
+ background-color: rgb(212, 208, 208);
+}
+.form h2 {
+ font-size: 45px;
+ font-weight: 400;
+ margin: 30px;
+ margin-bottom: 50px;
+}
+.box {
+ padding: 12px;
+ margin: 12px;
+ width: 75%;
+ border-radius: 50px;
+ border: 1px solid black;
+}
+#submit {
+ padding: 5px 12px;
+ background-color: cadetblue;
+ color: aliceblue;
+ border-radius: 50px;
+ border: 1px solid black;
+ margin-top: 50px;
+}
+#submit:hover {
+ cursor: pointer;
+}
+.form a {
+ text-decoration: none;
+ color: cadetblue;
+ margin-top: 15px;
+}
+.form a:hover {
+ cursor: pointer;
+}
+.side {
+ display: flex;
+ width: 50%;
+ background-color: cornflowerblue;
+ align-items: center;
+ justify-content: center;
+}
+.side img {
+ width: 200px;
+ height: 200px;
+ object-fit: contain;
+ transition: transform 0.5s;
+}
+.side img:hover {
+ transform: rotate(6deg) scale(1);
+}
+@media (width <800px) {
+ .container {
+  flex-wrap: nowrap;
+  flex-direction: column;
+  width: 85%;
+  height: 80%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+ }
+
+ .form,
+ .side {
+  width: 100%;
+  height: 60%;
+  padding: 20px;
+ }
+ .h2 {
+  font-size: 35px;
+  margin: 20px;
+ }
+ .box {
+  margin: 10px;
+ }
+ .side {
+  order: -1;
+ }
+ .form {
+  order: 2;
+ }
+ .side img {
+  width: 50%;
+  height: 50%;
+ }
+}
