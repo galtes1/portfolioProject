@@ -194,7 +194,6 @@ input[type="submit"] {
 
  #bottomRight {
   display: grid;
-<<<<<<< Updated upstream
   grid-template-columns: 1fr;
   grid-template-rows: repeat(3, 1fr);
   margin-top: 10px;
@@ -338,5 +337,4 @@ input[type="submit"] {
     grid-template-rows: repeat(3, 1fr);
     margin-top: 10px;
   }
->>>>>>> Stashed changes
 }
