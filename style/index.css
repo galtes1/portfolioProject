@@ -162,6 +162,12 @@ h1 {
     text-align: center;
   }
 }
+.spiel .pcSpiel {
+  display: inline;
+}
+.spiel .mobileSpiel {
+  display: none;
+}
 
 .quote {
   text-align: center;
@@ -449,7 +455,7 @@ input[type="button"]:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 15px;
+  padding: 10px;
   transition: 0.3s ease;
 
   p {
@@ -493,27 +499,70 @@ input[type="button"]:hover {
   header {
     display: flex;
     width: 100%;
+    position: sticky;
+    z-index: 999;
+  }
+  #menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
   h1 {
+    font-size: 1.5em;
+  }
+  h2 {
+    text-align: center;
     font-size: 1em;
   }
 
   .spiel {
     width: 100%;
   }
+  .spiel .pcSpiel {
+    display: none;
+  }
+  .spiel .mobileSpiel {
+    display: inline;
+  }
   #cvSection {
-    margin-top: 2em;
+    margin-top: 0;
+    .cvBtn {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
     .cvBtn a {
       margin: 0.5em;
       font-size: 1em;
+      text-align: center;
     }
   }
+  #gallery {
+    padding-top: 25%;
+  }
   .spinText {
-    padding: 3em;
+    padding: 2em;
+    margin-bottom: 2em;
+  }
+  .spinText span {
+    font-size: 2.5em;
+  }
+  .worksTitle {
+    margin-bottom: 2em;
+  }
+  .worksTitle p {
+    font-size: 1.8em;
   }
   #container-gallery {
     display: grid;
+    grid-template-columns: 1fr;
+  }
+  .form {
+    text-align: center;
+  }
+  .icons {
+    display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    border-top: 1px solid #ad97b3;
+    padding-top: 2em;
   }
 }
